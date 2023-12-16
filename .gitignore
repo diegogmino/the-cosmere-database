@@ -28,3 +28,6 @@ replay_pid*
 ./cosmere-database-api-model/target/*
 ./cosmere-database-api-rest/target/*
 ./cosmere-database-model/target/*
+
+# IntelliJ files
+.idea
