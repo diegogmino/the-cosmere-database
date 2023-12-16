@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cosmere-database-api-model/cosmere-database-api-model.iml" filepath="$PROJECT_DIR$/cosmere-database-api-model/cosmere-database-api-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cosmere-database-api-rest/cosmere-database-api-rest.iml" filepath="$PROJECT_DIR$/cosmere-database-api-rest/cosmere-database-api-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cosmere-database-boot/cosmere-database-boot.iml" filepath="$PROJECT_DIR$/cosmere-database-boot/cosmere-database-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cosmere-database-model/cosmere-database-model.iml" filepath="$PROJECT_DIR$/cosmere-database-model/cosmere-database-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/the-cosmere-database.iml" filepath="$PROJECT_DIR$/.idea/the-cosmere-database.iml" />
     </modules>
   </component>

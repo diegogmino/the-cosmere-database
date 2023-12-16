@@ -6,16 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="the-cosmere-database" />
+        <module name="cosmere-database-api-rest" />
+        <module name="cosmere-database-api-model" />
+        <module name="cosmere-database-model" />
+        <module name="cosmere-database-boot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="the-cosmere-database" target="17" />
+      <module name="cosmere-database-api-model" target="11" />
+      <module name="cosmere-database-api-rest" target="11" />
+      <module name="cosmere-database-boot" target="11" />
+      <module name="cosmere-database-model" target="11" />
+      <module name="the-cosmere-database" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="the-cosmere-database" options="-parameters" />
+      <module name="cosmere-database-api-model" options="-parameters" />
+      <module name="cosmere-database-api-rest" options="-parameters" />
+      <module name="cosmere-database-boot" options="-parameters" />
+      <module name="cosmere-database-model" options="-parameters" />
+      <module name="the-cosmere-database" options="" />
     </option>
   </component>
 </project>
